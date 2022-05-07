@@ -1,0 +1,470 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5.0, minimum-scale=0.2">
+
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!--
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-09RRKD7CRD"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-09RRKD7CRD');
+    </script>
+    <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101296995);</script>
+    <script async src="//static.getclicky.com/js"></script>    
+    -->
+
+    <script>
+        // 判断是否为移动端运行环境 
+
+        // if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){ 
+
+        // if(window.location.href.indexOf("?mobile")<0){ 
+        try{ 
+            // if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){ 
+            if (window.screen.width < 700) {
+            // 判断访问环境是 Android|webOS|iPhone|iPod|BlackBerry 则加载以下样式 
+                setActiveStyleSheet("jemdoc_mobile.css"); 
+            } 
+            else if(/iPad/i.test(navigator.userAgent)){ 
+            // 判断访问环境是 iPad 则加载以下样式 
+                setActiveStyleSheet("jemdoc.css"); 
+            } 
+            else{ 
+            // 判断访问环境是 其他移动设备 则加载以下样式 
+                setActiveStyleSheet("jemdoc.css"); 
+            } 
+        } 
+        catch(e){} 
+        // } 
+        // } 
+
+        // else{ 
+
+        // 如果以上都不是，则加载以下样式 
+
+        // setActiveStyleSheet("jemdoc.css"); 
+
+        // } 
+
+        // 判断完毕后加载样式 
+
+        function setActiveStyleSheet(filename){
+            document.write("<link href="+filename+" rel=stylesheet>");
+        }
+    </script>
+
+    <link rel="shortcut icon" href="myIcon.ico">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="keywords" content="Zekang Li, Tencent, WeChat, ICT, UCAS, HUST, 李泽康">
+    <meta name="description" content="Zekang Li's home page">
+    <!-- <link rel="stylesheet" href="jemdoc.css" type="text/css" />
+    <link rel="stylesheet" media="screen and (max-width:700px)" href="jemdoc_mobile.css" type="text/css" />
+    <link rel="stylesheet" media="screen and (max-width:700px)" href="jemdoc.css" type="text/css" /> -->
+    <title>Zekang Li</title>
+</head>
+
+<body>
+    <div id="layout-content" style="margin-top:0px">
+        <table>
+            <tbody>
+                <tr>
+                    <td width="80%">
+                        <div id="toptitle">
+                        <h1>Zekang Li (李泽康)</h1>
+				        </div>
+                        <h3>Master student</h3>
+                        <p>
+                            <a href="http://nlp.ict.ac.cn/ictnlp_website/">NLP Group</a>, Key Laboratory of Intelligent Information Processing, ICT, CAS</br>
+                            Email: <a href="mailto:zekangli97@gmail.com">zekangli97 [at] gmail.com</a>
+                            or <a href="mailto:lizekang19g@ict.ac.cn">lizekang19g [at] ict.ac.cn</a>
+                        </p>
+                        <p>
+                            <a href="https://github.com/lizekang"><img src="assets/github.png" height="30px"></a>
+                            <a href="https://scholar.google.com/citations?user=ZmfOwN8AAAAJ&hl=en"><img src="assets/google_scholar.png" height="30px"></a>
+                        </p>
+                        <b>Stay hungry, stay foolish.</b>
+                    </td>
+			        <td width="20%"><img src="assets/zekangli.jpg" border="0" width="100%"></br></td>
+		<tr>
+	</tbody>
+</table>
+
+<h2>Biography</h2>
+<!-- <h2>Biography</h2> -->
+<p>
+    <div style="text-align:justify"> 
+        My name is Zekang Li (李泽康). I am currently a Master Student at <a href="http://nlp.ict.ac.cn/">Key Laboratory of Intelligent Information Processing, ICT, CAS</a>, advised by Prof. <a href="https://yangfengyf.github.io/">Yang Feng</a>. Before that, I obtained my B.E. degree at <a href="https://www.hust.edu.cn">Huazhong University of Science and Technology</a> in Jun. 2019. 
+    </div>
+</p>
+<p>My research interests lie within Natural Language Processing, particularly in Dialogue System and Vision-Language tasks. I am also involved in Cognitive Science and its application in Dialogue System.</p>
+<!-- <p><font color="red">Pinned: </font></p> -->
+<h2>News</h2>
+<ul>
+    <li>
+        [2021/07] Talk at the NSF Future Directions Workshop on the Automatic Evaluation of Open-Domain Dialog (AED).
+    </li>
+    <li>
+        [2021/06] Talk at Baidu NLP on pre-training and evaluation for open-domain dialogue.
+    </li>
+    <li>
+        [2021/05] Two papers about dialogue pre-training and dialogue consistency evaluation were accepted to ACL2021.
+    </li>
+    <li>
+        [2021/04] We will organize <a href="https://sites.google.com/dstc.community/dstc10/tracks">Track1: MOD:Internet Meme Incorporated Open-domain Dialog</a> at DSTC10. Welcome to join the challenge!
+    </li>
+    <li>
+        [2021/02] One paper about Audio-Visual Scene-aware Dialogue was accepted to IEEE/ACM TASLP.
+    </li>
+    <li>
+        [2021/02] Our project (Science Fiction AI-Human Co-writing) won the First Prize in the 6th National Youth Artificial Intelligence Innovation, CAAI, advised by Yonggang Wang and Ming Zhou.
+    </li>
+    <li>
+        [2020/11] One paper about Interactive Dialogue System was accepted to DSTC9@AAAI2021.
+    </li>
+    <li>
+        [2020/10] We participated in the DSTC9 Interactive Dialogue Evaluation Track. We tied the 1st in sub-task1 and got the 3rd place in sub-task2.
+    </li>
+    <li>
+        [2020/08] Our project (Science Fiction AI-Human Co-writing) won the 1st place in the Innovation Track at Deecamp 2020.
+    </li>
+    <li>
+        [2019/11] One paper about Audio-Visual Scene-aware Dialogue was accepted to DSTC8@AAAI2020.
+    </li>
+    <li>
+        [2019/10] We won the 1st place in the DSTC8 AVSD Track.
+    </li>
+    <li>
+        [2019/05] One paper about Document Grounded Conversations was accepted to ACL2019.
+    </li><li>
+        [2018/11] I join WeChat AI as Research Intern.
+    </li>
+</ul>
+
+<h2>Education</h2>
+<ul>
+    <li>
+        <div style="display: flex; justify-content: space-between;">
+            <div><a href="https://www.hust.edu.cn">Huazhong University of Science and Technology</a>, Wuhan, China</div>
+            <div style="margin-left: 2px;">Sep. 2015 – Jun. 2019</div>
+        </div>
+        B.E. in Computer Science and Technology<br>
+    </li>
+    <li>
+        <div style="display: flex; justify-content: space-between;">
+            <div><a href="https://www.ict.ac.cn">Institute of Computing Technology, Chinese Academy of Sciences</a>, Beijing, China</div>
+            <div style="margin-left: 2px;">Sep. 2019 – Jun. 2022 (expected)</div>
+        </div>
+        M.S. in Computer Science and Technology<br>
+    </li>
+</ul>
+<!-- <h2>Publications [<a href="https://scholar.google.com/citations?user=jkcRdBgAAAAJ&hl=en">Google Scholar</a>]</h2> -->
+<h2>Publications (Selected)</h2>
+*: equal contribution.
+<ul>
+    <li>
+        <a href="https://arxiv.org/pdf/2106.02227">Conversations Are Not Flat: Modeling the Intrinsic Information Flow between Dialogue Utterances</a><br>
+        <b>Zekang Li</b>, Jinchao Zhang, Zhengcong Fei, Yang Feng, Jie Zhou.<br>
+        <em>To appear at the Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics</em> (<b>ACL</b>), 2021. (Oral)<br>
+        <p style="margin-top:3px">
+            [<a href="https://arxiv.org/pdf/2106.02227">Paper</a>]
+            [<a href="https://github.com/ictnlp/DialoFlow">Code</a>]
+		</p>
+    </li>
+    <li>
+        <a href="https://arxiv.org/pdf/2106.02228">Addressing Inquiries about History: An Efficient and Practical Framework for Evaluating Open-domain Chatbot Consistency</a><br>
+        <b>Zekang Li</b>, Jinchao Zhang, Zhengcong Fei, Yang Feng, Jie Zhou.<br>
+        <em>To appear at the Findings of the Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics</em> (<b>Findings of ACL</b>), 2021. (Online)<br>
+        <p style="margin-top:3px">
+            [<a href="https://arxiv.org/pdf/2106.02228">Paper</a>]
+            [<a href="https://github.com/ictnlp/AIH">Code</a>]
+		</p>
+    </li>
+    <li>
+        <a href="https://ieeexplore.ieee.org/document/9376902">Bridging Text and Video: A Universal Multimodal Transformer for Video-Audio Scene-Aware Dialog</a><br>
+        <b>Zekang Li</b>, Zongjia Li, Jinchao Zhang, Yang Feng, Jie Zhou.<br>
+        <em>IEEE/ACM Transactions on Audio, Speech and Language Processing</em> (<b>TASLP</b>), 2021.<br>
+        <p style="margin-top:3px">
+            [<a href="https://ieeexplore.ieee.org/document/9376902">Paper</a>]
+            [<a href="https://ieeexplore.ieee.org/document/9376902">Bib</a>]
+            [<a href="https://github.com/ictnlp/DSTC8-AVSD">Code</a>]
+		</p>
+    </li>
+    <li>
+        <a href="https://arxiv.org/abs/2101.07947">WeChat AI's Submission for DSTC9 Interactive Dialogue Evaluation Track</a><br>
+        <b>Zekang Li</b>, Zongjia Li, Jinchao Zhang, Yang Feng, Jie Zhou.<br>
+        <em>Proceedings of the 9th Dialog System Technology Challenge Workshop in AAAI2021.</em> (<b>DSTC9@AAAI2021</b>), 2021. (Oral)<br>
+        <p style="margin-top:3px">
+            [<a href="https://arxiv.org/pdf/2101.07947.pdf">Paper</a>]
+            [<a href="https://scholar.googleusercontent.com/scholar.bib?q=info:ZJj578g0U9IJ:scholar.google.com/&output=citation&scisdr=CgVKs-A4EOH86rBqeGE:AAGBfm0AAAAAYEtvYGFhm75FooZnecvfFAiZuzamjerX&scisig=AAGBfm0AAAAAYEtvYOqaJA5fEWwDeOMBDzLeFXTuvYC3&scisf=4&ct=citation&cd=-1&hl=en">Bib</a>]
+		</p>
+    </li>
+	<li>
+		<a href="https://www.aclweb.org/anthology/P19-1002.pdf">Incremental Transformer with Deliberation Decoder for Document Grounded Conversations</a><br>
+		<b>Zekang Li</b>, Cheng Niu, Fandong Meng, Yang Feng, Qian Li, Jie Zhou.<br>
+		<em>Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics</em> (<b>ACL</b>), 2019. (Oral)</br>
+		<p style="margin-top:3px">
+			[<a href="https://www.aclweb.org/anthology/P19-1002.pdf">Paper</a>]
+            [<a href="https://www.aclweb.org/anthology/P19-1002.bib">Bib</a>]
+            [<a href="https://github.com/lizekang/ITDD">Code</a>]
+		</p>
+    </li>
+    <li>
+		<a href="https://dl.acm.org/doi/pdf/10.1145/3299869.3300085">An end-to-end automatic cloud database tuning system using deep reinforcement learning</a><br>
+		Ji Zhang, Yu Liu, Ke Zhou, Guoliang Li, Zhili Xiao, Bin Cheng, Jiashu Xing, Yangtao Wang, Tianheng Cheng, Li Liu, Minwei Ran, <b>Zekang Li</b>.<br>
+		<em>Proceedings of the 2019 International Conference on Management of Data</em> (<b>SIGMOD</b>), 2019.</br>
+		<p style="margin-top:3px">
+			[<a href="https://dl.acm.org/doi/pdf/10.1145/3299869.3300085">Paper</a>]
+            [<a href="https://scholar.googleusercontent.com/scholar.bib?q=info:7j-Wpkzee-4J:scholar.google.com/&output=citation&scisdr=CgVKs-A4EOH86rB11kE:AAGBfm0AAAAAYEtwzkGppJheLBY_HPRX0Y25JSX5ZLIt&scisig=AAGBfm0AAAAAYEtwztJQBbyTq_N-JAiljCpSq-VEJPs9&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1">Bib</a>]
+		</p>
+	</li>
+</ul>
+
+<!-- <h2>Manuscripts [<a href="https://scholar.google.com/citations?user=jkcRdBgAAAAJ&hl=en">Google Scholar</a>]</h2> -->
+<h2>Manuscripts</h2>
+*: equal contribution.
+
+<ul>
+    <li>
+		<a href="https://www.aclweb.org/anthology/2020.acl-main.563.pdf">A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking</a><br>
+		Yong Shan, <b>Zekang Li</b>, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu, Jie Zhou.<br>
+        <em>Submitted to IEEE/ACM TASLP.</em>
+		<p style="margin-top:3px">
+			[<a href="https://www.aclweb.org/anthology/2020.acl-main.563.pdf">Paper</a>]
+            [<a href="https://www.aclweb.org/anthology/2020.acl-main.563.bib">Bib</a>]
+		</p>
+    </li>
+
+    <li>
+		<a href="https://arxiv.org/abs/2004.12429">Towards Multimodal Response Generation with Exemplar Augmentation and Curriculum Optimization</a><br>
+		Zeyang Lei*, <b>Zekang Li</b>*, Jinchao Zhang, Fandong Meng, Yang Feng, Yujiu Yang, Cheng Niu, Jie Zhou.<br>
+		<em>arXiv preprint arXiv:2004.12429 (2020).</em>
+		<p style="margin-top:3px">
+			[<a href="https://arxiv.org/pdf/2004.12429.pdf">Paper</a>]
+			[<a href="https://scholar.googleusercontent.com/scholar.bib?q=info:WTONqMu-SrcJ:scholar.google.com/&output=citation&scisdr=CgVKs-A4EOH86rB0lyc:AAGBfm0AAAAAYEtxjydOX6LryM-5b8Q35cRUzFoNK4oe&scisig=AAGBfm0AAAAAYEtxj9OhxVNu3MyJEc6S4qe5eXPwXTnL&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1">Bib</a>]
+		</p>
+    </li>
+</ul>
+
+<h2>Experience</h2>
+<ul>
+	<li>
+        WeChat AI, Beijing, China<br>
+        <div style="display: flex; justify-content: space-between; font-style: italic;">
+            <div>Research Intern, advised by <a href="https://scholar.google.com/citations?user=vH9YLsAAAAAJ&hl=en">Jinchao Zhang</a>, <a href="http://fandongmeng.github.io/">Fandong Meng</a>, and Cheng Niu.</div>
+            <div style="margin-left: 2px;">Nov. 2018 – Now</div>
+        </div>
+        <ul>
+            <li>
+                <b>Interactive Dialogue</b>: Interactive Dialogue System (DSTC9), Interactive Dialogue Consistency Evaluation (ACL2021), Dialogue Pre-training and Evaluation (ACL2021).
+            </li>
+            <li>
+                <b>Grounded Dialogue Generation</b>: Document Grounded Conversations (ACL2019), Audio-Visual Scene-aware Dialog (TASLP), Meme Dialogue (ACL2021).
+            </li>
+            <li>
+                <b>Dialogue Coherence and Diversity</b>: WAE and examplar based dialogue generation.
+            </li>
+            <li>
+                <b>Task-oriented Dialogue</b>: Dialogue State Tracking.
+            </li>
+        </ul>
+	</li>
+	<li>
+        <a href="http://dian.org.cn/">Dian Group</a>, Wuhan, Hubei province, China<br>
+        <div style="display: flex; justify-content: space-between; font-style: italic;">
+            <div>Group Leader & Founder, AI Group, advised by <a href="https://xinggangw.info/index.htm">Xinggang Wang</a>.</div>
+            <div style="margin-left: 2px;">Feb. 2018 – Jun. 2019</div>
+        </div>
+        <ul>
+            <li>
+                <b>Management</b>: Founder of AI Group in Dian Group. I expanded the group from 4 members to 20+ members. AI Group got the Best Group award in Dian Group for consecutive two years.
+            </li>
+            <li>
+                <b>Development</b>: We cooperated with famous companies on commercial or research projects, such as 
+                <ul>
+                <li>1) <b>AIBot</b>: An Intelligent Customer Service Robot (Beibei Group).</li>
+                <li>2) <b>AI in 5G</b>: Using Deep Reinforcement Learning to optimize Network Access Control in 5G. (Intel Inc).</li>
+                <li>3) <b>Real­time Face Detection & Alignment Project</b>. </li>
+                </ul>
+                I mainly leaded the AIBot project and guided the other projects.
+            </li>
+        </ul>
+	</li>
+	<li>
+        <a href="http://wnlo.hust.edu.cn/">Wuhan National Laboratory for Optoelectronics</a>, HUST, Wuhan, Hubei province, China <br>
+        <div style="display: flex; justify-content: space-between; font-style: italic;">
+            <div>Research Assistant, advised by Prof. Ke Zhou, cooperate with Tencent Cloud.</div>
+            <div style="margin-left: 2px;">Sep. 2017 – Aug. 2018</div>
+        </div>
+        <ul>
+            <li>
+                <b>Cloud Database Autotune</b>: Tune tencent cloud database automatically using deep reinforcement learning. Our system significantly outperforms the state-of-the-art tuning tools and the DBA experts. Our paper is accepted by SIGMOD 2019.
+            </li>
+            <li>
+                <b>My work</b>: 1. Analyze cloud database knobs to find which knobs affect performance a lot. 2. Propose the idea to use deep reinforcement learning to tune cloud database automatically, build the tuning system, and design rewards.
+            </li>
+        </ul>
+	</li>
+</ul>
+
+<h2>Projects (Selected)</h2>
+<ul>
+	<li>
+        <b>The First Chinese Science Fiction Human-AI Co-writing Experiment</b><br>
+        <div style="display: flex; justify-content: space-between; font-style: italic;">
+            <div>Team Leader, cooperate with <a href="https://xiangrutang.github.io/">Xiangru</a>, <a href="https://feizc.github.io/resume/">Zhengcong</a>, Xiaohao, advised by Yonggang Wang.</div>
+            <div style="margin-left: 2px;">Aug. 2020 – Dec. 2020</div>
+        </div>
+        <ul>
+            <li>
+                <b>Project Introduction</b>: This project originated in the Deecamp 2020, Sinovation Ventures, which was lectured by 12 world-renowned AI experts including Andrew NG, Zhihua ZHOU and Kai-fu LEE.
+                We designed and built a Human-AI Co-writing System with the Chinese large-scale pre-trained language model and the large-scale science fiction corpus. We also adapted different writing styles for different writers.
+            </li>
+            <li>
+                <b>Operation</b>: 11 human science fiction writers (including Qiufan Chen, Shi Gu, etc) and AI collaborated to create multiple science fiction stories on topics such as environmental protection, human-computer relationship, gender, and cultural diversity.
+            </li>
+            <li>
+                <b>Social Influence</b>: <a href="https://wap.peopleapp.com/article/6035123/5949205">The People’s Daily</a>, <a href="http://digitalpaper.stdaily.com/http_www.kjrb.com/kjrb/html/2020-11/04/content_456370.htm?div=-1">Science and Technology Daily</a>, <a href="https://mp.weixin.qq.com/s/RWyq_rkxsdSM-94t0Sa3Qw">Kaifu Li</a>, <a href="https://news.yahoo.com/artificial-intelligence-helping-11-science-095615768.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS5oay8&guce_referrer_sig=AQAAAN2kaopsm_rLEuQODOO83dT0XzuW0M81IW4HihhNFwUnfDbyULqfhyitwoeYT16qinJI2FJa0a6MDaSMyrHU7U9G93s0mpQ32I1jN4rrip31Y_vrxNK_6daV9bIZlwgUaOhkXbns1rBAAKEE5YQpydG0sQPH3sc774MFoCj-uG52">Yahoo News</a>.
+            </li>
+        </ul>
+	</li>
+	<li>
+        <b>AIBot: An Intelligent Customer Service Robot</b><br>
+        <div style="display: flex; justify-content: space-between; font-style: italic;">
+            <div>Team Leader, cooperate with <a href="https://www.beibei.com/">Beibei Group</a>.</div>
+            <div style="margin-left: 2px;">Mar. 2018 – Nov. 2018</div>
+        </div>
+        <ul>
+            <li>
+                <b>Project Introduction</b>: Beibei Group is the biggest e-commerce company for mothers and babies in China. I lead a team of 12 undergraduate students to develop a stable, learnable and reliable intelligent customer service system to replace the original commercial system. The response accuracy and customer’s satisfaction of our system outperforms the original commercial system (Yibot). Now AIbot serves hundreds of millions customers.
+            </li>
+            <li>
+                <b>Methods</b>: 
+                <ul>
+                    <li><b>Models</b>: We design text classification models (TextCNN, TextLSTM) to select the most proper responses according to users' questions.</li>
+                    <li><b>Active Learning</b>: To get continuous improvement after the deployment, we train a discriminator to identify the bad/low-confidence cases and annotate them by experts. Annotated data will replace the bad/low-confidence cases in the training process.</li>
+                    <li><b>Offline Training and Online Serving</b>: We used X-learning distributed training platform to update our model everyday and used Kafka to meet high concurrency requirements for online serving.</li>
+                </ul>
+            </li>
+            <li>
+                <b>Achievement</b>: AIBot achieved the similar accuracy on the response selection with the commercial system Yibot. After one month's tuning, AIBot got 1.7% improvement on the user satisfaction and 2.3% decrease on the turnover rate.
+            </li>
+        </ul>
+	</li>
+</ul>
+
+<h2>Competitions</h2>
+<ul>
+    <li>
+        <div style="display: flex; justify-content: space-between;">
+            <div>First Prize in the 6th National Youth Artificial Intelligence Innovation, CAAI. </div>
+            <div style="margin-left: 2px;">Feb. 2021</div>
+        </div>
+    </li>
+    <li>
+        <div style="display: flex; justify-content: space-between;">
+            <div>First Place in sub-task1 and 3rd place in sub-task2 of the IDE Track at DSTC9 Challenge. </div>
+            <div style="margin-left: 2px;">Oct. 2020</div>
+        </div>
+    </li>
+    <li>
+        <div style="display: flex; justify-content: space-between;">
+            <div>First Prize in 2020 Artificial Intelligence Application Innovation Competition, Huawei Cloud</div>
+            <div style="margin-left: 2px;">Aug. 2020</div>
+        </div>
+    </li>
+    <li>
+        <div style="display: flex; justify-content: space-between;">
+            <div>First Place of Innovation Track, Deecamp 2020, Sinovation Ventures</div>
+            <div style="margin-left: 2px;">Aug. 2020</div>
+        </div>
+    </li>
+    <li>
+        <div style="display: flex; justify-content: space-between;">
+            <div>First Place of Audio-Visual Scene-Aware Dialog Track at the DSTC8 Challenge. </div>
+            <div style="margin-left: 2px;">Oct. 2019</div>
+        </div>
+    </li>
+    <li>
+        <div style="display: flex; justify-content: space-between;">
+            <div>Meritorious Winner in MCM 2018</div>
+            <div style="margin-left: 2px;">Apr. 2018</div>
+        </div>
+    </li>
+    <li>
+        <div style="display: flex; justify-content: space-between;">
+            <div>Second Prize in CCF Big Data & Computing Intelligence Contest (top 36 / 14988)</div>
+            <div style="margin-left: 2px;">Dec. 2017</div>
+        </div>
+    </li>
+    <li>
+        <div style="display: flex; justify-content: space-between;">
+            <div>Second Place in 1st HackxFdu Hackathon (2/80)</div>
+            <div style="margin-left: 2px;">Oct. 2016</div>
+        </div>
+    </li>
+</ul>
+
+<h2>Honors & Awards</h2>
+<ul>
+	<!-- <li>
+		<div style="float:left; text-align:left">Outstanding Graduate award, Huazhong University of Science and Technology</div> <div style="float:right; text-align:right">Jun. 2020</div>
+        
+    </li> -->
+    <li>
+        <div style="display: flex; justify-content: space-between;">
+            <div>LvDe Scholarship (one of the top awards in ICT, CAS)</div>
+            <div style="margin-left: 2px;">Jan. 2021</div>
+        </div>
+    </li>
+    <li>
+        <div style="display: flex; justify-content: space-between;">
+            <div>First-class Scholarship of ICT, CAS</div>
+            <div style="margin-left: 2px;">Oct. 2020</div>
+        </div>
+    </li>
+    <li>
+        <div style="display: flex; justify-content: space-between;">
+            <div>Outstanding Graduate award (top 3%), HUST</div>
+            <div style="margin-left: 2px;">Jun. 2019</div>
+        </div>
+    </li>
+    <li>
+        <div style="display: flex; justify-content: space-between;">
+            <div>Outstanding Graduate Thesis award (top 3%), HUST</div>
+            <div style="margin-left: 2px;">Jun. 2019</div>
+        </div>
+    </li>
+    <li>
+        <div style="display: flex; justify-content: space-between;">
+            <div>Third Prize in 2018 Tencent Rhino-Bird Elite Training Program</div>
+            <div style="margin-left: 2px;">Oct. 2019</div>
+        </div>
+    </li>
+</ul>
+
+<h2>Professional Services</h2>
+<ul>
+    <li>ACL: Reviewer (2021, 2020)</li>
+    <li>EMNLP: Reviewer (2021)</li>
+    <li>AAAI: Reviewer (2021)</li>
+</ul>
+
+<div id="footer">
+	<div id="footer-text" style="text-align: center;">© Zekang Li | Last updated: 05/07/2021</div>
+</div>
+	<!-- <center>© Tao Huang | Last updated: 02/19/2021</center> -->
+    <!--<center>© Tao Huang
+    	<script type="text/javascript" language="javascript">
+    	if (Date.parse(document.lastModified) != 0) document.write(" | Last updated: " + document.lastModified);</script>
+    </center>-->
+</div>
+
+</body>
+</html>
+
